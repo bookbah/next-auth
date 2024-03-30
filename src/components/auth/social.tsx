@@ -2,6 +2,7 @@
 
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa6";
 
 import { Button } from "@/components/ui/button";
 
@@ -14,7 +15,7 @@ export const Social = () => {
                 variant="outline"
                 onClick={() => {}}
             >
-                <FcGoogle className="h-5 w-5" />
+                <FcGoogle className="h-6 w-6" />
             </Button>
             <Button
                 size="lg"
@@ -22,7 +23,15 @@ export const Social = () => {
                 variant="outline"
                 onClick={() => {}}
             >
-                <FaGithub className="h-5 w-5" />
+                <FaGithub className="h-6 w-6" />
+            </Button>
+            <Button
+                size="lg"
+                className="w-full hover:bg-[#5662F6]"
+                variant="outline"
+                onClick={() => {}}
+            >
+                <FaDiscord className="h-6 w-6" />
             </Button>
         </div>
     )
