@@ -1,6 +1,6 @@
 import { LoginForm } from "@/components/auth/login-form"
 
-function LoginPage() {
+const LoginPage = () => {
     return (
         <LoginForm />
     )
