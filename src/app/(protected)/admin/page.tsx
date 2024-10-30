@@ -29,7 +29,7 @@ const AdminPage = () => {
             if (response.ok) {
                 toast.success("Allowed API Route!")
             } else {
-                toast.success("Forbidden API Route!")
+                toast.warning("Forbidden API Route!")
             }
         })
     }
